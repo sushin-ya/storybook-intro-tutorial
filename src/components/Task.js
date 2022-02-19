@@ -21,6 +21,12 @@ export default function Task({
           id={`archiveTask-${id}`}
           aria-label={`archiveTask-${id}`}
         />
+        <span
+          className='checkbox-custom'
+          onClick={() => onArchiveTask(id)}
+          id={`archiveTask-${id}`}
+          aria-label={`archiveTask-${id}`}
+        />
       </label>
       <div className='title'>
         <input
